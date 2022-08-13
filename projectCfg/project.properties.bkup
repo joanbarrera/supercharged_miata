@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Fri Aug 12 22:48:44 CEST 2022
-#Fri Aug 12 22:48:44 CEST 2022
+#Last Saved on: Sat Aug 13 10:45:27 CEST 2022
+#Sat Aug 13 10:45:27 CEST 2022
 smallpwInjector\ Small\ Pulsewidths_Y=106
 smallpwInjector\ Small\ Pulsewidths_X=207
 tcluparamsTorque\ Convertor\ Lockup_width=357
@@ -24,8 +24,8 @@ warmup_curve_Set\ X\ Axis\ Minimum=-40.0
 fuelpumpFuel\ Pump\ and\ Pressure\ Control_width=685
 tcluparamsTorque\ Convertor\ Lockup_Y=199
 tcluparamsTorque\ Convertor\ Lockup_X=590
-egoControlAFR\ /\ EGO\ Control_Y=212
-egoControlAFR\ /\ EGO\ Control_X=692
+egoControlAFR\ /\ EGO\ Control_Y=222
+egoControlAFR\ /\ EGO\ Control_X=463
 userDash0.DashName=vds
 stagedCombinedStaged\ Injection_height=723
 tuneFileDir=C\:\\Users\\Usuario\\Documents\\TunerStudioProjects\\supercharged_miata
@@ -81,8 +81,8 @@ accelsettingsAccel\ Enrich\ Settings_X=577
 idleAdvanceIdle\ Advance\ Settings_Y=225
 idleAdvanceIdle\ Advance\ Settings_X=467
 injseqtestInjector\ Sequential\ Testing_width=357
-veTable1TblFuel\ VE\ Table\ 1_Y=86
-veTable1TblFuel\ VE\ Table\ 1_X=0
+veTable1TblFuel\ VE\ Table\ 1_Y=113
+veTable1TblFuel\ VE\ Table\ 1_X=190
 sensorCalCalibrate\ MAP/Baro_width=357
 battcalibCalibrate\ Battery\ Voltage_height=236
 VeAnalyzeConsole.veTable1Tbl_verticalSplitPos=635
@@ -195,7 +195,7 @@ alternatorAlternator\ Control_Y=70
 alternatorAlternator\ Control_X=387
 combinedCLidleClosed-Loop\ Idle\ Settings_width=682
 idle_voltage_comp_curvePWM\ Idle\ Voltage\ Compensation_height=362
-veTable1TblFuel\ VE\ Table\ 1_height=485
+veTable1TblFuel\ VE\ Table\ 1_height=621
 projectDescription=
 injseqtestInjector\ Sequential\ Testing_height=251
 CommSettingCom\ Port=COM1
@@ -305,7 +305,7 @@ refTable_001_txtBiasResistor=2490.0
 MAFtableMAF\ Flow\ Curve_height=621
 vvt_timing1_tblVVT\ Intake\ (Relative\ Timing)_X=576
 smallpwInjector\ Small\ Pulsewidths_width=1121
-veTable1TblFuel\ VE\ Table\ 1_width=808
+veTable1TblFuel\ VE\ Table\ 1_width=1027
 maxafrAFR\ Safety\ System_width=562
 outputtest_io3Output\ Test\ Mode\ -\ CAN\ I/O_Y=138
 aseTaper_Set\ X\ Axis\ Minimum=-40.0
