@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Mon Aug 15 17:13:52 CEST 2022
-#Mon Aug 15 17:13:52 CEST 2022
+#Last Saved on: Wed Aug 17 12:24:59 CEST 2022
+#Wed Aug 17 12:24:59 CEST 2022
 smallpwInjector\ Small\ Pulsewidths_Y=106
 smallpwInjector\ Small\ Pulsewidths_X=207
 tcluparamsTorque\ Convertor\ Lockup_width=357
@@ -37,8 +37,8 @@ specialSpecial\ Options_X=574
 dwellSettingsDwell\ Battery\ Correction_Y=231
 dwellSettingsDwell\ Battery\ Correction_X=582
 idle_voltage_comp_curvePWM\ Idle\ Voltage\ Compensation_width=373
-veTable3TblFuel\ VE\ Table\ 3_Y=151
-veTable3TblFuel\ VE\ Table\ 3_X=1314
+veTable3TblFuel\ VE\ Table\ 3_Y=18
+veTable3TblFuel\ VE\ Table\ 3_X=238
 hpteHigh\ Power\ Time\ Enrichment_Y=178
 hpteHigh\ Power\ Time\ Enrichment_X=576
 egtEGT\ /\ Thermocouple\ Inputs_Y=130
@@ -303,9 +303,9 @@ baseEngine\ and\ Sequential\ Settings_Y=235
 baseEngine\ and\ Sequential\ Settings_X=960
 pwmidle_target_curveClosed-Loop\ Idle\ Target\ RPMs_width=469
 tsSupplementalFieldsVehicle\ Specifications_width=745
-ignitionTbl3Ignition\ Table\ 3\ (Spark\ Advance)_Y=140
+ignitionTbl3Ignition\ Table\ 3\ (Spark\ Advance)_Y=33
 knockSettings2Knock\ Window\ Settings_height=740
-ignitionTbl3Ignition\ Table\ 3\ (Spark\ Advance)_X=1259
+ignitionTbl3Ignition\ Table\ 3\ (Spark\ Advance)_X=138
 refTable_001_txtBiasResistor=2490.0
 vvt_timing1_tblVVT\ Intake\ (Relative\ Timing)_Y=272
 vvt_timing1_tblVVT\ Intake\ (Relative\ Timing)_X=576
@@ -428,7 +428,7 @@ tsSupplementalFieldsVehicle\ Specifications_height=444
 veTable1Map3DFuel\ VE\ Table\ 1_width=1014
 pwmidle_crank_dutyorsteps_dutycurve_Set\ X\ Axis\ Minimum=-40.0
 barometerCorrBarometric\ Correction_Y=179
-ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_Y=154
+ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_Y=83
 dwellSettingsDwell\ Battery\ Correction_width=373
 barometerCorrBarometric\ Correction_X=430
 ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_X=65
