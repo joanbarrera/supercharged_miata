@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Fri Dec 09 19:11:41 CET 2022"/>
+<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Fri Dec 09 19:02:18 CET 2022"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.4.0+release+++++20150709+19%3A51BST+%28c%29+JSM%2FKC+********" nPages="19" signature="MS3 Format 0523.15 "/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -912,8 +912,8 @@
 <constant digits="0" name="fan_idleup_cl_targetadder" units="rpm">50.0</constant>
 <constant digits="1" name="boost_ctl_clt_threshold" units="°C">76.71455</constant>
 <constant name="fan_ctl_settings_acfan">"Turn fan on"</constant>
-<constant digits="1" name="ego_upper_bound" units="AFR">18.0</constant>
-<constant digits="1" name="ego_lower_bound" units="AFR">8.5</constant>
+<constant digits="1" name="ego_upper_bound" units="AFR">20.0</constant>
+<constant digits="1" name="ego_lower_bound" units="AFR">18.0</constant>
 <constant name="ss_opt2">"Off"</constant>
 <constant name="ss_opt2_spd">"Off"</constant>
 <constant digits="0" name="launch_maxvss" units="KPH">2.88</constant>
