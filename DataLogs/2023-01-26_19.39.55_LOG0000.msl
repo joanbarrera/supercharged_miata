@@ -1,0 +1,10 @@
+"MS3 Format 0523.15 : MS3 1.4.0 release     20150709 19:51BST (c) JSM/KC ********"
+"Capture Date: Thu Jan 26 19:39:55 CET 2023"
+Time	SecL	RPM	MAP	TPS	AFR	MAT	CLT	Engine	EGO cor1	Fuel: Air cor	Fuel: Warmup cor	Fuel: Baro cor	Fuel: Accel enrich	Fuel: Accel PW	PW	Duty Cycle1	SPK: Spark Advance	SPK: Knock retard	Knock in	SPK: MAT Retard	PWM Idle duty	AFR 1 Target	AFR 1 Error	Wall fuel1	EAE1	VSS1	VSS1 ms-1	Knock cyl# 1	Knock cyl# 2	Knock cyl# 3	Knock cyl# 4	Fuel Flow cc	Fuel Flow lph	Gallons Used	Trip Meter Miles	Odometer Miles	Vehicle Speed	Power	Torque	Odometer_Miles
+s	s	RPM	kPa	%	AFR	°C	°C	bit	%	%	%	%	%	ms	ms	%	deg	deg	%	deg	%	AFR		uS	%	MPH	ms-1	%	%	%	%	cc/min	l/hr	Gal	Miles	Miles	MPH	HP	lbft	Miles
+-0.001	14	1206	41.5	0.0	7.40	19.6	19.8	13	100.0	100.9	174	100.0	100	0.000	3.441	3.5	14.1	0.0	3.9	0.0	41.6	14.7	-7.3	0	104	0.0	0.0	3.6	3.6	4.0	4.0	59.7	3.5	0.0	0.00	0.00	0.00	0.0	0.0	0.0
+0.019	14	1206	41.5	0.0	7.40	19.6	19.8	13	100.0	100.9	174	100.0	100	0.000	3.412	3.4	14.1	0.0	3.9	0.0	41.6	14.7	-7.3	0	104	0.0	0.0	3.6	3.6	4.0	4.0	59.0	3.5	0.0	0.00	0.00	0.00	0.0	0.0	0.0
+0.040	14	1206	41.5	0.0	7.40	19.6	19.8	13	100.0	100.9	173	100.0	100	0.000	3.412	3.4	14.1	0.0	3.8	0.0	41.6	14.7	-7.3	0	103	0.0	0.0	3.6	3.6	3.6	4.0	59.0	3.5	0.0	0.00	0.00	0.00	0.0	0.0	0.0
+0.060	14	1206	41.5	0.0	7.40	19.6	19.9	13	100.0	100.9	173	100.0	100	0.000	3.412	3.4	14.1	0.0	4.0	0.0	41.6	14.7	-7.3	0	103	0.0	0.0	3.6	3.6	3.6	4.0	59.0	3.5	NaN	NaN	NaN	0.00	0.0	0.0	NaN
+0.080	14	1213	41.1	0.0	7.40	19.6	19.9	13	100.0	100.9	173	100.0	100	0.000	3.412	3.4	14.2	0.0	3.9	0.0	41.9	14.7	-7.3	0	102	0.0	0.0	3.6	3.6	3.6	4.0	59.3	3.5	0.0	0.00	0.00	0.00	0.0	0.0	0.0
+0.099	14	1216	41.1	0.0	7.40	19.6	19.9	13	100.0	100.9	173	100.0	100	0.000	3.412	3.5	14.2	0.0	3.9	0.0	41.9	14.7	-7.3	0	102	0.0	0.0	3.6	3.6	3.6	4.0	59.5	3.5	0.0	0.00	0.00	0.00	0.0	0.0	0.0
