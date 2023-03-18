@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sun Mar 12 16:28:49 CET 2023"/>
+<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Sat Mar 18 18:35:22 CET 2023"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.4.0+release+++++20150709+19%3A51BST+%28c%29+JSM%2FKC+********" nPages="19" signature="MS3 Format 0523.15 "/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -320,7 +320,7 @@
 <constant digits="1" name="fc_kpa" units="kPa">50.0</constant>
 <constant digits="1" name="fc_tps" units="%">1.0</constant>
 <constant digits="1" name="fc_clt" units="°C">49.995</constant>
-<constant digits="1" name="fc_delay" units="s">0.7</constant>
+<constant digits="1" name="fc_delay" units="s">2.2</constant>
 <constant name="tacho_opt3f">"Tacho"</constant>
 <constant digits="0" name="fc_ego_delay" units="s">2.0</constant>
 <constant name="tacho_opt80">"On"</constant>
@@ -344,7 +344,7 @@
 <constant digits="2" name="launch_sft_deg" units="deg">5.0</constant>
 <constant digits="0" name="launch_hrd_lim" units="RPM">3200.0</constant>
 <constant digits="0" name="launch_tps" units="%">20.0</constant>
-<constant name="launchlimopt">"Fuel Cut"</constant>
+<constant name="launchlimopt">"Spark and fuel"</constant>
 <constant name="launchlimopt_adv">"Basic"</constant>
 <constant name="launchlimopt_cut">"Random Progressive"</constant>
 <constant digits="0" name="launchvsstime" units="s">10.0</constant>
@@ -3649,8 +3649,8 @@
 </page>
 <page number="7" size="1024">
 <constant cols="16" digits="1" name="advanceTable1" rows="16" units="deg">
-         14.0 14.0 15.9 20.0 27.3 29.3 30.8 32.1 32.9 33.6 34.3 35.1 35.8 36.5 37.0 38.0 
-         14.0 14.0 15.9 19.9 27.0 29.1 30.7 32.0 32.8 33.5 34.1 34.8 35.5 36.1 36.6 37.4 
+         14.0 14.0 15.9 20.0 27.3 29.3 -1.0 -1.0 -1.0 -1.0 -1.0 35.1 35.8 36.5 37.0 38.0 
+         14.0 14.0 15.9 19.9 27.0 29.1 -1.0 -1.0 -1.0 -1.0 -1.0 34.8 35.5 36.1 36.6 37.4 
          14.0 14.0 16.0 19.4 24.6 27.4 29.4 30.7 31.4 31.9 32.1 32.1 32.6 32.7 32.7 32.7 
          14.0 14.0 16.0 19.2 23.7 26.7 28.7 29.9 30.7 31.0 31.1 31.2 31.3 31.4 31.5 31.5 
          10.3 11.5 16.0 18.9 22.4 25.1 26.7 27.6 28.4 28.9 29.4 29.8 29.8 30.1 30.4 30.4 
@@ -6751,47 +6751,47 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_15" rows="41" units="RAW">
-         125.0 
-         214.0 
-         133.0 
-         27.0 
-         22.0 
-         120.0 
-         205.0 
-         125.0 
-         203.0 
-         23.0 
-         61.0 
-         29.0 
-         56.0 
-         196.0 
-         244.0 
-         210.0 
-         30.0 
-         177.0 
-         119.0 
-         248.0 
-         116.0 
-         88.0 
-         15.0 
-         201.0 
-         168.0 
-         240.0 
-         110.0 
-         66.0 
-         222.0 
-         182.0 
+         72.0 
+         18.0 
+         129.0 
+         0.0 
+         0.0 
+         96.0 
+         0.0 
+         17.0 
+         77.0 
+         36.0 
+         12.0 
+         0.0 
+         0.0 
+         4.0 
+         48.0 
+         146.0 
+         0.0 
          1.0 
-         246.0 
+         69.0 
+         152.0 
+         64.0 
+         208.0 
+         16.0 
+         128.0 
+         48.0 
+         132.0 
          127.0 
-         123.0 
-         227.0 
-         187.0 
-         157.0 
-         171.0 
-         110.0 
-         147.0 
-         201.0 
+         2.0 
+         72.0 
+         144.0 
+         0.0 
+         102.0 
+         1.0 
+         27.0 
+         99.0 
+         130.0 
+         132.0 
+         40.0 
+         12.0 
+         146.0 
+         193.0 
       </constant>
 </page>
 <page number="16" size="1024">
