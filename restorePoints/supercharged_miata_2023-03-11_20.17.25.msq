@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Sat Mar 11 20:17:25 CET 2023"/>
+<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: User Requested Save of Settings - &lt;br&gt;" writeDate="Fri Mar 24 19:12:42 CET 2023"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.4.0+release+++++20150709+19%3A51BST+%28c%29+JSM%2FKC+********" nPages="19" signature="MS3 Format 0523.15 "/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -344,9 +344,9 @@
 <constant digits="2" name="launch_sft_deg" units="deg">5.0</constant>
 <constant digits="0" name="launch_hrd_lim" units="RPM">3200.0</constant>
 <constant digits="0" name="launch_tps" units="%">20.0</constant>
-<constant name="launchlimopt">"Fuel Cut"</constant>
+<constant name="launchlimopt">"Spark and fuel"</constant>
 <constant name="launchlimopt_adv">"Basic"</constant>
-<constant name="launchlimopt_cut">"Random Progressive"</constant>
+<constant name="launchlimopt_cut">"Fixed 5/7"</constant>
 <constant digits="0" name="launchvsstime" units="s">10.0</constant>
 <constant digits="0" name="launchvss_maxgear">6.0</constant>
 <constant name="launch_opt_pins">"Launch in"</constant>
@@ -457,7 +457,7 @@
 <constant name="log_style_led">"Off"</constant>
 <constant name="log_style_ledspd">"Normal"</constant>
 <constant digits="1" name="primedelay" units="s">0.0</constant>
-<constant name="pwmidle_cl_opts_initvaluetable">"Use last value"</constant>
+<constant name="pwmidle_cl_opts_initvaluetable">"Use initial value table"</constant>
 <constant name="pwmidle_cl_opts_initval_clt">"Use MAT"</constant>
 <constant name="pwmidle_cl_opts_display_pid">"Advanced"</constant>
 <constant name="boost_ctl_flags">"Basic Mode"</constant>
@@ -916,7 +916,7 @@
 <constant digits="1" name="ego_lower_bound" units="AFR">8.5</constant>
 <constant name="ss_opt2">"Off"</constant>
 <constant name="ss_opt2_spd">"Off"</constant>
-<constant digits="0" name="launch_maxvss" units="MPH">1.78952</constant>
+<constant digits="0" name="launch_maxvss" units="MPH">2.01321</constant>
 <constant name="maf_range">"650g/s"</constant>
 <constant digits="0" name="ac_delay_since_last_on" units="s">4.0</constant>
 <constant digits="2" name="reluctorteeth3">1.0</constant>
@@ -4296,10 +4296,10 @@
       </constant>
 <constant cols="1" digits="0" name="pwmidle_cl_initialvalue_rpms" rows="5" units="rpm">
          800.0 
+         900.0 
          1000.0 
          1200.0 
-         1400.0 
-         1600.0 
+         1300.0 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_cl_initialvalue_matorclt" rows="5" units="°C">
          -6.666 
@@ -4309,18 +4309,18 @@
          59.994 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 
+         30.968 32.144 35.28 38.024 39.984 
+         30.968 32.144 35.28 38.024 39.984 
+         30.968 32.144 35.28 38.024 39.984 
+         30.968 32.144 35.28 38.024 39.984 
+         30.968 32.144 35.28 38.024 39.984 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 
-         0.0 0.0 0.0 0.0 0.0 
+         79.0 82.0 90.0 97.0 102.0 
+         79.0 82.0 90.0 97.0 102.0 
+         79.0 82.0 90.0 97.0 102.0 
+         79.0 82.0 90.0 97.0 102.0 
+         79.0 82.0 90.0 97.0 102.0 
       </constant>
 <constant cols="1" digits="0" name="knock_clts" rows="4" units="°C">
          4.444 
