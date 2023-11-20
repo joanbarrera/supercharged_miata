@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Wed Aug 09 16:57:45 CEST 2023"/>
+<bibliography author="TunerStudio MS 3.1.08 - EFI Analytics, Inc." tuneComment="" writeDate="Mon Nov 20 17:04:57 CET 2023"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.4.0+release+++++20150709+19%3A51BST+%28c%29+JSM%2FKC+********" nPages="19" signature="MS3 Format 0523.15 "/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -66,7 +66,7 @@
 <constant name="spkout_hi_lo2">"Going High"</constant>
 <constant digits="1" name="max_coil_dur" units="ms">3.0</constant>
 <constant digits="1" name="max_spk_dur" units="ms">1.0</constant>
-<constant digits="0" name="crankingRPM" units="RPM">300.0</constant>
+<constant digits="0" name="crankingRPM" units="RPM">250.0</constant>
 <constant digits="1" name="triggerOffset" units="deg">6.0</constant>
 <constant digits="1" name="TpsBypassCLTRevlim" units="TPS %">90.0</constant>
 <constant digits="1" name="map0" units="%">3.5</constant>
@@ -123,7 +123,7 @@
 <constant digits="2" name="taeTime" units="s">0.2</constant>
 <constant digits="0" name="tpsasync_events" units="events">20.0</constant>
 <constant digits="0" name="tdePct">90.0</constant>
-<constant digits="1" name="floodClear" units="%">70.0</constant>
+<constant digits="1" name="floodClear" units="%">85.0</constant>
 <constant digits="1" name="TPSOXLimit" units="%">102.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
 <constant name="baroCorr">"Initial MAP Reading"</constant>
@@ -411,11 +411,11 @@
 <constant name="pwmidle_freq_pin3">"Off"</constant>
 <constant name="pwmidle_freq_koeo">"On"</constant>
 <constant digits="0" name="ac_idleup_min_rpm" units="rpm">600.0</constant>
-<constant digits="1" name="pwmidle_tps_threshold" units="%">1.0</constant>
+<constant digits="1" name="pwmidle_tps_threshold" units="%">0.4</constant>
 <constant digits="1" name="pwmidle_dp_adder" units="%">4.704</constant>
 <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">12.0</constant>
-<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">60.0</constant>
-<constant digits="1" name="pwmidle_decelload_threshold" units="%">26.5</constant>
+<constant digits="0" name="pwmidle_rpmdot_threshold" units="rpm/sec">100.0</constant>
+<constant digits="1" name="pwmidle_decelload_threshold" units="%">25.0</constant>
 <constant digits="1" name="pwmidle_Kp_new" units="%">25.0</constant>
 <constant digits="1" name="pwmidle_Ki_new" units="%">40.0</constant>
 <constant digits="1" name="pwmidle_Kd_new" units="%">50.0</constant>
@@ -2037,8 +2037,8 @@
          155.0 
          140.0 
          140.0 
-         130.0 
          120.0 
+         110.0 
       </constant>
 <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
          70.0 
@@ -6751,17 +6751,17 @@
          0.0 
       </constant>
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_15" rows="41" units="RAW">
-         125.0 
-         214.0 
-         133.0 
-         27.0 
-         222.0 
-         88.0 
-         108.0 
          253.0 
+         196.0 
+         148.0 
+         27.0 
+         220.0 
+         92.0 
+         108.0 
+         220.0 
          203.0 
          31.0 
-         63.0 
+         255.0 
          28.0 
          60.0 
          224.0 
@@ -6770,28 +6770,28 @@
          124.0 
          179.0 
          119.0 
-         252.0 
-         84.0 
-         216.0 
-         13.0 
+         236.0 
+         118.0 
+         24.0 
+         77.0 
          153.0 
          168.0 
-         242.0 
-         102.0 
-         66.0 
-         15.0 
+         112.0 
+         110.0 
+         74.0 
+         79.0 
          180.0 
          73.0 
-         254.0 
-         255.0 
-         27.0 
-         3.0 
+         246.0 
+         239.0 
+         18.0 
+         19.0 
          187.0 
          156.0 
-         11.0 
-         46.0 
-         146.0 
-         193.0 
+         15.0 
+         170.0 
+         148.0 
+         144.0 
       </constant>
 </page>
 <page number="16" size="1024">

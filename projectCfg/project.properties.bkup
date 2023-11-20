@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Fri Aug 04 19:31:15 CEST 2023
-#Fri Aug 04 19:31:15 CEST 2023
+#Last Saved on: Mon Nov 20 16:57:34 CET 2023
+#Mon Nov 20 16:57:34 CET 2023
 smallpwInjector\ Small\ Pulsewidths_Y=106
 pwmidle_cl_initialvaluesClosed-Loop\ Idle\ Initial\ Values_height=500
 tpswot_curveTPS\ for\ WOT_width=373
@@ -196,8 +196,8 @@ ioboxIO-Box\ Settings_X=478
 fan_controlFan\ Control_height=505
 speedsensorsSpeed\ and\ Gear\ Sensors_Y=90
 speedsensorsSpeed\ and\ Gear\ Sensors_X=367
-combinedCLidleClosed-Loop\ Idle\ Settings_Y=27
-combinedCLidleClosed-Loop\ Idle\ Settings_X=737
+combinedCLidleClosed-Loop\ Idle\ Settings_Y=170
+combinedCLidleClosed-Loop\ Idle\ Settings_X=486
 outputtest_io2Output\ Test\ Mode\ -\ I/O\ 2_height=603
 outputtest_io3Output\ Test\ Mode\ -\ CAN\ I/O_width=586
 iactestOutput\ Test\ Mode\ -\ Idle\ Valve_width=618
@@ -206,7 +206,7 @@ inj_timing_tblInjector\ Timing_width=540
 VeAnalyzeConsole.veTable1Tbl_selectedDash=Standard
 antilagTurbo\ Anti-Lag\ (ALS)_width=357
 flexFuelSettingsFuel\ Sensor\ Settings_height=513
-AEpump_settingsAccel-Pump\ Accel\ Enrichment_height=838
+AEpump_settingsAccel-Pump\ Accel\ Enrichment_height=685
 Triggers.EventTrigger\:Stop\ Data\ log\:triggered=false
 fan_controlFan\ Control_width=357
 TauDecTableTau\ Decel\ Correction_height=422
@@ -322,7 +322,7 @@ knockSettingsKnock\ Sensor\ Settings_height=750
 dwellSettingsDwell\ Battery\ Correction_height=362
 outputtest_io2Output\ Test\ Mode\ -\ I/O\ 2_width=689
 egoControlAFR\ /\ EGO\ Control_width=844
-AEpump_settingsAccel-Pump\ Accel\ Enrichment_width=1272
+AEpump_settingsAccel-Pump\ Accel\ Enrichment_width=926
 iopinlistFeature\ List\ Showing\ I/O\ pins_height=840
 sparkcalcsSpark\ Calculations\ Summary_height=840
 dwellSettings_showText=true
@@ -415,8 +415,8 @@ smallpwInjector\ Small\ Pulsewidths_width=1121
 veTable1TblFuel\ VE\ Table\ 1_width=1126
 canvssCAN\ VSS\ and\ gear\ selection_height=500
 maxafrAFR\ Safety\ System_width=562
-AEpump_settingsAccel-Pump\ Accel\ Enrichment_Y=18
-AEpump_settingsAccel-Pump\ Accel\ Enrichment_X=-200
+AEpump_settingsAccel-Pump\ Accel\ Enrichment_Y=0
+AEpump_settingsAccel-Pump\ Accel\ Enrichment_X=216
 alphaMAPTblFallback\ MAP\ Table_height=272
 outputtest_io3Output\ Test\ Mode\ -\ CAN\ I/O_Y=138
 aseTaper_Set\ X\ Axis\ Minimum=-40.0
