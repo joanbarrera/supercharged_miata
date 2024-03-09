@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Mon Nov 20 17:04:57 CET 2023
-#Mon Nov 20 17:04:57 CET 2023
+#Last Saved on: Fri Dec 29 17:10:53 CET 2023
+#Fri Dec 29 17:10:53 CET 2023
 smallpwInjector\ Small\ Pulsewidths_Y=106
 pwmidle_cl_initialvaluesClosed-Loop\ Idle\ Initial\ Values_height=500
 tpswot_curveTPS\ for\ WOT_width=373
@@ -33,7 +33,7 @@ lastSdLogFileName=C\:\\Users\\Usuario\\Documents\\TunerStudioProjects\\superchar
 userDash0.DashName=vds
 TauDecTableTau\ Decel\ Correction_width=485
 stagedCombinedStaged\ Injection_height=723
-tuneFileDir=C\:\\Users\\Usuario\\Documents\\TunerStudioProjects\\supercharged_miata
+tuneFileDir=C\:\\Users\\Usuario\\Documents\\TunerStudioProjects\\supercharged_miata\\restorePoints
 accelerometerAccelerometer\ Parameters_width=357
 checkengineCheck\ Engine\ Light_Y=40
 specialSpecial\ Options_Y=265
@@ -227,8 +227,8 @@ ms3_port_edit_wrapProgrammable\ On/Off\ Outputs_width=535
 fan_controlFan\ Control_Y=159
 canparamsCAN\ Parameters_width=647
 fan_controlFan\ Control_X=590
-crsettingsCranking\ /\ Startup\ Settings_Y=142
-crsettingsCranking\ /\ Startup\ Settings_X=426
+crsettingsCranking\ /\ Startup\ Settings_Y=227
+crsettingsCranking\ /\ Startup\ Settings_X=498
 cl_idle_timing_curveIdle\ RPM\ Timing\ Correction\ Curve_Y=251
 ltt_Table1TblLong\ Term\ Trim\ Table\ 1_Y=220
 cl_idle_timing_curveIdle\ RPM\ Timing\ Correction\ Curve_X=534
@@ -294,7 +294,7 @@ tpswot_curveTPS\ for\ WOT_X=582
 vvtparamsVVT\ Settings_width=834
 generalsettings2General\ Settings_Y=69
 generalsettings2General\ Settings_X=432
-overrunOver-Run\ Fuel\ Cut_height=550
+overrunOver-Run\ Fuel\ Cut_height=552
 noisefiltering2Noise\ Filtering_height=498
 refTable_001_chkCelsius=true
 TCltTableTau\ (Time)\ Temp.\ Correction\ Factors_height=482
@@ -492,7 +492,7 @@ primingPW_Set\ X\ Axis\ Minimum=-40.0
 nestedasePctAfterstart\ Enrichment\ (ASE)\ -\ Percent\ Adder_height=523
 knockSettings2Knock\ Window\ Settings_width=575
 limitsettingsGauge\ and\ Settings\ Limits_Y=197
-limpmodeLimp\ Mode_height=598
+limpmodeLimp\ Mode_height=562
 limitsettingsGauge\ and\ Settings\ Limits_X=584
 afrTable1Map3DAFR\ Table\ 1_Y=107
 afrTable1Map3DAFR\ Table\ 1_X=261
@@ -567,11 +567,11 @@ veTable1Map3DFuel\ VE\ Table\ 1_width=1014
 pwmidle_crank_dutyorsteps_dutycurve_Set\ X\ Axis\ Minimum=-40.0
 barometerCorrBarometric\ Correction_Y=179
 EAEAWNcurveEAE\ Adhere-to-walls\ RPM\ Correction_Y=174
-ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_Y=79
+ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_Y=244
 dwellSettingsDwell\ Battery\ Correction_width=373
 barometerCorrBarometric\ Correction_X=430
 EAEAWNcurveEAE\ Adhere-to-walls\ RPM\ Correction_X=358
-ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_X=-4
+ignitionTbl1Ignition\ Table\ 1\ (Spark\ Advance)_X=201
 XCltTableX\ (Puddling)\ Temp.\ Correction\ Factors_width=725
 Triggers.EventTrigger\:Data\ log\:triggerExpression=
 injseqtestInjector\ Sequential\ Testing_Y=286
