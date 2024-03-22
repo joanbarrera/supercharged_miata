@@ -1,1 +1,1 @@
-([MAPdot]>15)||([MAPdot]<-15)||([TPS]<5)
+([MAPdot]>15)||([MAPdot]<15)||([TPS]<5)
