@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Mon Oct 21 20:42:48 CEST 2024
-#Mon Oct 21 20:42:48 CEST 2024
+#Last Saved on: Thu Oct 31 18:52:26 CET 2024
+#Thu Oct 31 18:52:26 CET 2024
 sdcard_datalogSD\ Card\ Datalogging_Y=2
 sdcard_datalogSD\ Card\ Datalogging_X=357
 egtEGT\ /\ Thermocouple\ Inputs_width=556
@@ -421,7 +421,7 @@ primingPW_Set\ X\ Axis\ Minimum=-40.0
 alphaMAPTblFallback\ MAP\ Table_height=272
 veTable1TblFuel\ VE\ Table\ 1_width=963
 injseqtestInjector\ Sequential\ Testing_height=251
-tuneFileDir=C\:\\Users\\Usuario\\Desktop
+tuneFileDir=C\:\\Users\\Usuario\\Downloads
 userDash0.DashName=vds
 tpswot_curveTPS\ for\ WOT_height=362
 canbroadcastCAN\ Broadcasting_height=444
